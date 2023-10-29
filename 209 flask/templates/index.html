@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/header.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}" type="text/css">
+</head>
+<div class="header">
+    <a href="/" class="logo">National Parks</a>
+    <div class="header-right">
+        <a href="/states">Locations</a>
+        <a href="/species">Species & Ecosytem</a>
+        <a href="/things_to_do">Recreational Activities</a>
+    </div>
+</div>
+
+<body>
+    <div class="container">
+        <!-- Heading Row-->
+        <div class="row align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-2 mb-lg-0"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.inspiringperspectives.com%2Fwp-content%2Fuploads%2F2021%2F04%2FNATIONALPARKS_LOGO-1536x996.jpg&f=1&nofb=1&ipt=801cc440ea6f96c63bca1051f70a40c9e603af9633eef91aa88d365b3f29a23d&ipo=images"
+                    alt="..." /></div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Our Mission!</h1>
+                <p>Our website's mission is to be a resource for exploring the national parks of the United
+                    States, providing a comprehensive platform for visualizations that showcase each park's unique state
+                    location, indigenous species, and recreational opportunities. We are dedicated to delivering
+                    an immersive and educational experience that helps visitors connect with the natural wonders that
+                    define our country. Our mission revolves around seamlessly blending geography, biology, and
+                    recreation into a single digital space, fostering a deeper understanding of these remarkable
+                    national treasures.
+                </p>
+                <a class="btn btn-primary" href="https://www.nps.gov/index.htm" target="_blank">National Parks
+                    Homepage</a>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="img-fluid rounded mb-1 mb-lg-0"
+                            src="https://www.travel-experience-live.com/wp-content/uploads/2019/03/Sol-Duc-Falls-in-Olympic-National-Park-Washington-USA.jpg"
+                            alt="..." />
+                    </div>
+                    <center>
+                        <div class="card-footer"><a class="btn btn-success btn-lg" href="/states">Locations</a></div>
+                    </center>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="img-fluid rounded mb-1 mb-lg-0"
+                            src="https://s.yimg.com/ny/api/res/1.2/WS7ISOhSBM34Psq5SUPkFA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MQ--/https://media.zenfs.com/en/the_huffington_post_584/ef8e9a7a9d52de7b456ee1670b079ebc"
+                            alt="..." />
+                    </div>
+                    <center>
+                        <div class="card-footer"><a class="btn btn-info btn-lg" href="/species">Species</a></div>
+                    </center>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded mb-1 mb-lg-0"
+                                src="https://s27363.pcdn.co/wp-content/uploads/2020/10/Mt-Rainier-Hike.jpg.optimal.jpg"
+                                alt="..." />
+                        </div>
+                        <center>
+                            <div class="card-footer"><a class="btn btn-success btn-lg" href="/things_to_do">Things To
+                                    Do</a></div>
+                        </center>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; LuckySharms 2023</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

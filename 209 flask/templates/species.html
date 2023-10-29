@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/header.css') }}" type="text/css">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/styles.css') }}" type="text/css">
+  </head>
+  <center>
+  <div class="header">
+    <a href="/" class="logo">National Parks</a>
+    <div class="header-right">
+      <a href="/states">Locations</a>
+      <a href="/species">Species & Ecosytem</a>
+      <a href="/things_to_do">Recreational Activities</a>
+    </div>
+  </div>
+  <br></br>
+  <h2>Species Zoommap</h2>
+  <body>
+    <center>
+    <iframe width="100%" height="1078" frameborder="0"
+  src="https://observablehq.com/embed/934ab961ab1a6b3b@464?cells=chart&api_key=5124c0b14fa1d363e8a2d02300deb3d8f06ba2a7"></iframe>
+
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; LuckySharms 2023</p></div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    </center>
+    </body>
+</center>
+</html>
